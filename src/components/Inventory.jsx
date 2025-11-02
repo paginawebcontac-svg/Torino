@@ -386,7 +386,7 @@ export default function Inventory() {
   const [openDetail, setOpenDetail] = useState(null)
   const [selectedCar, setSelectedCar] = useState(null)
 
-  const brands = ["todos", "Fiat", "toyota", "volkswagen", "chevrolet", "ford", "jeep"]
+  const brands = ["todos", "Fiat", "toyota", "volkswagen", "chevrolet", "ford", "motos",]
 
   const filteredCars =
     selectedBrand === "todos" ? inventoryData : inventoryData.filter((car) => car.brand === selectedBrand)
