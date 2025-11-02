@@ -242,7 +242,7 @@ nav {
 /* Hero Section */
 .hero {
   height: 100vh;
-  background: url("public/hero.webp") center / cover no-repeat;
+  background: url("./hero.webp") center / cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -3,7 +3,7 @@ export default function Featured() {
     {
       id: 1,
       title: "Mercedes-Benz Clase E 300",
-      image: "public/luxury-car.png",
+      image: "./luxury-car.png",
       description:
         "Experimenta el lujo alemán en su máxima expresión. Este Mercedes-Benz Clase E combina elegancia, tecnología de vanguardia y un rendimiento excepcional. Equipado con todas las características premium que esperarías de la marca de la estrella.",
       year: 2024,
@@ -15,7 +15,7 @@ export default function Featured() {
     {
       id: 2,
       title: "BMW X5 M Sport",
-      image: "public/luxury-car.png",
+      image: "./luxury-car.png",
       description:
         "El SUV deportivo que redefine el concepto de versatilidad premium. Con su imponente presencia y tecnología de última generación, el X5 M Sport ofrece una experiencia de conducción incomparable tanto en ciudad como en ruta.",
       year: 2023,

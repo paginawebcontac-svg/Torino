@@ -27,7 +27,7 @@ export default function Header() {
     <header>
       <nav>
         <div className="logo">
-          <img src="public/logo-torino.jpg" alt="Logo Torino" className="logo-image" />
+          <img src="./logo-torino.jpg" alt="Logo Torino" className="logo-image" />
           <span className="logo-text">TORINO</span>
         </div>
         <button className="theme-toggle" onClick={toggleTheme} aria-label="Cambiar tema">

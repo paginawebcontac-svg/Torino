@@ -11,7 +11,7 @@ const inventoryData = [
     km: "10.9000 Km",
     fuel: "Nafta",
     price: "$ 21.500.000",
-    image: "public/Cronos.jpg",
+    image: "./Cronos.jpg",
     potencia:'130 cv',
     motor:'1.8lts',
     traccion:'Delantera',
@@ -30,7 +30,7 @@ const inventoryData = [
     potencia:'132 cv',
     traccion:'Delantera',
     consumo:'9.0 L/100km',
-    image: "public/corolla.jpg",
+    image: "./corolla.jpg",
     description: "La pickup más confiable del mercado.",
   },
   {
@@ -41,7 +41,7 @@ const inventoryData = [
     km: " 52.000 Km",
     fuel: "Nafta",
     price: "$ 28.500.000",
-    image: "public/fiat pulse.jpg",
+    image: "./fiat pulse.jpg",
     motor:'1.0lts',
     potencia:'120 cv',
     traccion:'Delantera',
@@ -60,7 +60,7 @@ const inventoryData = [
     motor:'1.4lts',
     traccion:'Delantera',
     consumo:'8.4 L/100km',
-    image: "public/onix.jpg",
+    image: "./onix.jpg",
     description: "Tecnología y diseño en un SUV compacto.",
   },
    {
@@ -75,7 +75,7 @@ const inventoryData = [
     motor:'1.4lts',
     traccion:'Delantera',
     consumo:'8.9 L/100km',
-    image: "public/celta.jpg",
+    image: "./celta.jpg",
     description: "Tecnología y diseño en un SUV compacto.",
   },
   {
@@ -90,7 +90,7 @@ const inventoryData = [
     potencia:'123 cv',
     traccion:'Delantera',
     consumo:'5.2 L/100km',
-    image: "public/Ecosport.jpg",
+    image: "./Ecosport.jpg",
     description: "Poder y capacidad todo terreno.",
   },
   {
@@ -101,7 +101,7 @@ const inventoryData = [
     km: " 152000 Km",
     fuel: "Nafta",
     price: "$ 13.900.000",
-    image: "public/fiesta.jpg",
+    image: "./fiesta.jpg",
     motor:'1.6lts',
     potencia:'120 cv',
     traccion:'Delantera',
@@ -116,7 +116,7 @@ const inventoryData = [
     km: "82000 Km",
     fuel: "Diesel",
     price: "$ 33.900.000 ",
-    image: "public/amarrok.jpg",
+    image: "./amarrok.jpg",
     motor:'2.0lts',
     potencia:'140 cv',
     traccion:'Tracera',
@@ -135,7 +135,7 @@ const inventoryData = [
     potencia:'90 cv',
     traccion:'Delantera',
     consumo:'9.1 L/100km',
-    image: "public/ETIOS.jpg",
+    image: "./ETIOS.jpg",
     description: "El sedán más vendido del mundo.",
   },
   {
@@ -146,7 +146,7 @@ const inventoryData = [
     km: "157.000 Km",
     fuel: "GNC",
     price: "$ 11.500.000",
-    image: "public/sandero.jpg",
+    image: "./sandero.jpg",
     motor:'1.6lts',
     potencia:'105 cv',
     traccion:'Delantera',
@@ -165,7 +165,7 @@ const inventoryData = [
     potencia:'395 cv',
     traccion:'4x4',
     consumo:'13.5 L/100km',
-    image: "public/RAM.jpg",
+    image: "./RAM.jpg",
     description: "Ícono americano de potencia y estilo.",
   },
   {
@@ -180,7 +180,7 @@ const inventoryData = [
     potencia:'231 cv',
     traccion:'4x4',
     consumo:'6.5 L/100km',
-    image: "public/bmw.jpg",
+    image: "./bmw.jpg",
     description: "Ícono americano de potencia y estilo.",
   },
     {
@@ -195,7 +195,7 @@ const inventoryData = [
     potencia:'120 cv',
     traccion:'Delantera',
     consumo:'4.7 L/100km',
-    image: "public/mini.jpg",
+    image: "./mini.jpg",
     description: "Ícono americano de potencia y estilo.",
   },
     {
@@ -210,7 +210,7 @@ const inventoryData = [
     potencia:'115 cv',
     traccion:'Delantera',
     consumo:'6.3 L/100km',
-    image: "public/citroen.jpg",
+    image: "./citroen.jpg",
     description: "Ícono americano de potencia y estilo.",
   },
    {
@@ -225,7 +225,7 @@ const inventoryData = [
     potencia:'165 cv',
     traccion:'Delantera',
     consumo:'7.8 L/100km',
-    image: "public/aircross.jpg",
+    image: "./aircross.jpg",
     description: "Ícono americano de potencia y estilo.",
   },
   {
@@ -240,7 +240,7 @@ const inventoryData = [
     potencia:'100 cv',
     traccion:'Delantera',
     consumo:'5.2 L/100km',
-    image: "public/golf.jpg",
+    image: "./golf.jpg",
     description: "Ícono americano de potencia y estilo.",
   },
     {
@@ -255,7 +255,7 @@ const inventoryData = [
     potencia:'190 cv',
     traccion:'4x4',
     consumo:'10.0 L/100km',
-    image: "public/alaskan.jpg",
+    image: "./alaskan.jpg",
     description: "Ícono americano de potencia y estilo.",
   },
     {
@@ -270,7 +270,7 @@ const inventoryData = [
     potencia:'170 cv',
     traccion:'Delantera',
     consumo:'8.5 L/100km',
-    image: "public/vento.jpg",
+    image: "./vento.jpg",
     description: "Ícono americano de potencia y estilo.",
   },
   {
@@ -285,7 +285,7 @@ const inventoryData = [
     potencia:'275 cv',
     traccion:'4x4',
     consumo:'10.8 L/100km',
-    image: "public/toyota.jpg",
+    image: "./toyota.jpg",
     description: "Ícono americano de potencia y estilo.",
   },
   {
@@ -300,7 +300,7 @@ const inventoryData = [
     potencia:'143 cv',
     traccion:'Delantera',
     consumo:'8.5 L/100km',
-    image: "public/duster.jpg",
+    image: "./duster.jpg",
     description: "Ícono americano de potencia y estilo.",
   },
   {
@@ -315,7 +315,7 @@ const inventoryData = [
     potencia:'105 cv',
     traccion:'Delantera',
     consumo:'10.4 L/100km',
-    image: "public/spin.jpg",
+    image: "./spin.jpg",
     description: "Ícono americano de potencia y estilo.",
   },
   {
@@ -330,7 +330,7 @@ const inventoryData = [
     potencia:'143 cv',
     traccion:'Delantera',
     consumo:'9.1 L/100km',
-    image: "public/ecoesport-2.jpg",
+    image: "./ecoesport-2.jpg",
     description: "Poder y capacidad todo terreno.",
   },
   {
@@ -345,7 +345,7 @@ const inventoryData = [
     potencia:'63 cv',
     traccion:'Delantera',
     consumo:'S/D',
-    image: "public/ford k.jpg",
+    image: "./ford k.jpg",
     description: "Poder y capacidad todo terreno.",
   },
   {
@@ -360,7 +360,7 @@ const inventoryData = [
     potencia:'115 cv',
     traccion:'Delantera',
     consumo:'6.4 lts / 100km',
-    image: "public/308.jpg",
+    image: "./308.jpg",
     description: "Poder y capacidad todo terreno.",
   },
   {
