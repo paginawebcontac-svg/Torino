@@ -375,7 +375,7 @@ const inventoryData = [
     potencia:'99 cv',
     traccion:'Delantera',
     consumo:'1.3 lts / 100km',
-    image: "public/cronos-2.jpg",
+    image: "./cronos-2.jpg",
     description: "Poder y capacidad todo terreno.",
   },
 ]
