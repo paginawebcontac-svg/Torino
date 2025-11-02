@@ -36,6 +36,122 @@
   box-sizing: border-box;
 }
 
+/* Ensure inventory cards are positioned relative so the detail label can be absolute */
+.inventory-card {
+  position: relative;
+}
+
+.detail-label {
+  position: absolute;
+  top: -0.75rem;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  background: rgba(0, 71, 171, 0.95);
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  z-index: 40;
+  min-width: 220px;
+  max-width: 320px;
+  text-align: left;
+}
+
+.detail-label .detail-row {
+  font-size: 0.85rem;
+  opacity: 0.95;
+  margin-top: 0.25rem;
+}
+
+.detail-close {
+  background: transparent;
+  border: none;
+  color: #fff;
+  float: right;
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+/* Modal styles for detail modal */
+.detail-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+  padding: 1.25rem;
+}
+
+.detail-modal {
+  background: var(--card-bg);
+  color: var(--text-primary);
+  border-radius: 12px;
+  max-width: 980px;
+  width: 100%;
+  box-shadow: 0 12px 40px rgba(2,6,23,0.4);
+  padding: 1rem;
+  position: relative;
+}
+
+.detail-modal-close {
+  position: absolute;
+  right: 0.6rem;
+  top: 0.6rem;
+  background: transparent;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.detail-modal-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.detail-modal-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.detail-modal-body h3 {
+  margin: 0 0 0.4rem 0;
+}
+
+.detail-modal-price {
+  color: var(--accent-color);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.detail-modal-specs {
+  list-style: none;
+  padding: 0;
+  margin: 0.6rem 0;
+}
+
+.detail-modal-specs li {
+  margin-bottom: 0.35rem;
+}
+
+.detail-modal-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .detail-modal-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 body {
   font-family: "Inter", "Arial", sans-serif;
   background: var(--bg-primary);
@@ -114,7 +230,7 @@ nav {
 /* Hero Section */
 .hero {
   height: 100vh;
-  background: url("/img/hero.webp") center / cover no-repeat;
+  background: url("public/hero.webp") center / cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
