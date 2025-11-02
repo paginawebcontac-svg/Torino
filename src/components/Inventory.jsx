@@ -364,7 +364,7 @@ const inventoryData = [
     description: "Poder y capacidad todo terreno.",
   },
   {
-    brand: "fiat",
+    brand: "Fiat",
     title: "Fiat Cronos 1.3 Precision CVT (L22)",
     year: 2023,
     transmission: "Automatica",
